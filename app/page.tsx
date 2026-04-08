@@ -38,62 +38,37 @@ const jsonLd = {
 
 const services = [
   {
-    icon: (
-      <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
-      </svg>
-    ),
+    img: 'https://images.pexels.com/photos/19166565/pexels-photo-19166565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600',
     title: 'Structured Cabling',
     desc: 'Cat5e, Cat6, Cat6A copper infrastructure designed to TIA-568 standards for long-term reliability.',
     href: '/services/structured-cabling-houston/',
   },
   {
-    icon: (
-      <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18" />
-      </svg>
-    ),
+    img: 'https://images.pexels.com/photos/442154/pexels-photo-442154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600',
     title: 'Network Cabling',
     desc: 'End-to-end network cabling installation for offices, data centers, and enterprise environments.',
     href: '/services/network-cabling-installation/',
   },
   {
-    icon: (
-      <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
-      </svg>
-    ),
+    img: 'https://images.pexels.com/photos/4280696/pexels-photo-4280696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600',
     title: 'Fiber Optic',
     desc: 'Single-mode and multi-mode fiber optic cabling for high-speed backbone and long-distance runs.',
     href: '/services/fiber-optic-cabling-houston/',
   },
   {
-    icon: (
-      <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10l4.553-2.069A1 1 0 0121 8.82V15.18a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
-      </svg>
-    ),
+    img: 'https://images.pexels.com/photos/6949384/pexels-photo-6949384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600',
     title: 'AV Network Cabling',
     desc: 'Professional AV infrastructure for conference rooms, digital signage, and integrated media systems.',
     href: '/services/av-network-cabling/',
   },
   {
-    icon: (
-      <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-      </svg>
-    ),
+    img: 'https://images.pexels.com/photos/7364948/pexels-photo-7364948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600',
     title: 'Surveillance Systems',
     desc: 'IP camera systems, NVR configuration, and commercial security cabling for complete coverage.',
     href: '/services/surveillance-camera-installation-houston/',
   },
   {
-    icon: (
-      <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
-      </svg>
-    ),
+    img: 'https://images.pexels.com/photos/29711663/pexels-photo-29711663.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600',
     title: 'WiFi Infrastructure',
     desc: 'Enterprise-grade access point deployment, cabling, and network design for seamless wireless coverage.',
     href: '/services/wifi-network-installation/',
@@ -102,22 +77,18 @@ const services = [
 
 const pillars = [
   {
-    icon: '🏅',
     title: 'Licensed & Certified',
     desc: 'Texas licensed low voltage contractor. BICSI-trained technicians. Fully bonded and insured.',
   },
   {
-    icon: '⏱️',
     title: 'On-Time Delivery',
     desc: 'We coordinate with your GC and stay on schedule. No delays, no excuses — just delivered on time.',
   },
   {
-    icon: '✨',
     title: 'Clean, Professional Work',
     desc: 'Organized cable management, proper labeling, and documentation on every single job.',
   },
   {
-    icon: '📍',
     title: 'Houston Local',
     desc: 'Houston-based team. Fast response times, local references, and a reputation built job by job.',
   },
@@ -128,25 +99,25 @@ const industries = [
     title: 'Building Managers',
     desc: 'Reliable infrastructure installs with minimal disruption to tenants and building operations.',
     href: '/industries/commercial-buildings/',
-    icon: '🏢',
+    img: 'https://images.pexels.com/photos/1486861/pexels-photo-1486861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600',
   },
   {
     title: 'Building Owners',
     desc: 'Future-proof your asset. Code-compliant cabling that adds value and passes inspection.',
     href: '/industries/commercial-buildings/',
-    icon: '🔑',
+    img: 'https://images.pexels.com/photos/273209/pexels-photo-273209.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600',
   },
   {
     title: 'General Contractors',
     desc: 'Low voltage subcontractor that shows up, communicates, and never delays your project.',
     href: '/industries/general-contractors/',
-    icon: '🔧',
+    img: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600',
   },
   {
     title: 'Office Relocations',
     desc: 'Get your cabling done on time so your move stays on schedule. We specialize in relocation jobs.',
     href: '/industries/office-relocation-cabling/',
-    icon: '📦',
+    img: 'https://images.pexels.com/photos/7581042/pexels-photo-7581042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600',
   },
 ]
 
@@ -184,8 +155,11 @@ export default function HomePage() {
       />
 
       {/* ── HERO ── */}
-      <section className="relative min-h-[90vh] flex items-center bg-[#0A1628] dot-grid overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628] via-[#0A1628]/90 to-[#1E3A5F]/40 pointer-events-none" />
+      <section className="relative min-h-[90vh] flex items-center bg-[#0A1628] overflow-hidden">
+        <div className="absolute inset-0">
+          <img src="https://images.pexels.com/photos/4716292/pexels-photo-4716292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920" alt="Commercial network cabling installation" className="w-full h-full object-cover opacity-30" />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628]/95 via-[#0A1628]/80 to-[#1E3A5F]/60 pointer-events-none" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-[#F97316]/10 border border-[#F97316]/30 rounded-full px-4 py-1.5 text-sm text-[#F97316] font-medium mb-6">
@@ -251,14 +225,16 @@ export default function HomePage() {
               <Link
                 key={s.href}
                 href={s.href}
-                className="group bg-[#112240] border border-[#1E3A5F] hover:border-[#F97316]/50 rounded-xl p-6 transition-all hover:bg-[#1E3A5F]/30"
+                className="group bg-[#112240] border border-[#1E3A5F] hover:border-[#F97316]/50 rounded-xl overflow-hidden transition-all"
               >
-                <div className="text-[#F97316] mb-4 group-hover:scale-110 transition-transform inline-block">
-                  {s.icon}
+                <div className="h-44 overflow-hidden">
+                  <img src={s.img} alt={s.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
-                <h3 className="text-white font-semibold text-lg mb-2">{s.title}</h3>
-                <p className="text-gray-400 text-sm leading-relaxed mb-4">{s.desc}</p>
-                <span className="text-[#F97316] text-sm font-medium group-hover:underline">Learn more →</span>
+                <div className="p-6">
+                  <h3 className="text-white font-semibold text-lg mb-2">{s.title}</h3>
+                  <p className="text-gray-400 text-sm leading-relaxed mb-4">{s.desc}</p>
+                  <span className="text-[#F97316] text-sm font-medium group-hover:underline">Learn more →</span>
+                </div>
               </Link>
             ))}
           </div>
@@ -274,8 +250,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {pillars.map((p) => (
-              <div key={p.title} className="text-center">
-                <div className="text-4xl mb-4">{p.icon}</div>
+              <div key={p.title} className="border-l-2 border-[#F97316] pl-5">
                 <h3 className="text-white font-semibold text-lg mb-2">{p.title}</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">{p.desc}</p>
               </div>
@@ -296,11 +271,15 @@ export default function HomePage() {
               <Link
                 key={i.href}
                 href={i.href}
-                className="group bg-[#112240] border border-[#1E3A5F] hover:border-[#F97316]/50 rounded-xl p-6 text-center transition-all"
+                className="group bg-[#112240] border border-[#1E3A5F] hover:border-[#F97316]/50 rounded-xl overflow-hidden transition-all"
               >
-                <div className="text-3xl mb-3">{i.icon}</div>
-                <h3 className="text-white font-semibold text-base mb-2">{i.title}</h3>
-                <p className="text-gray-400 text-sm leading-relaxed">{i.desc}</p>
+                <div className="h-40 overflow-hidden">
+                  <img src={i.img} alt={i.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="p-5">
+                  <h3 className="text-white font-semibold text-base mb-2">{i.title}</h3>
+                  <p className="text-gray-400 text-sm leading-relaxed">{i.desc}</p>
+                </div>
               </Link>
             ))}
           </div>
