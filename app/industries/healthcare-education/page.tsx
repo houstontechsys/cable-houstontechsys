@@ -8,13 +8,23 @@ export const metadata: Metadata = {
 export default function HealthcareEducationPage() {
   return (
     <>
-      <section className="bg-[#0A0A0A] dot-grid py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-6">Cabling for <span className="gradient-text">Healthcare & Education</span> in Houston</h1>
-          <p className="text-xl text-gray-300 mb-8">Code-compliant structured cabling and low voltage infrastructure for medical facilities, clinics, schools, and universities throughout the Houston area.</p>
-          <div className="flex gap-4 flex-wrap">
-            <Link href="/get-a-quote/" className="bg-[#DC2626] hover:bg-red-600 text-white font-bold px-7 py-3.5 rounded-lg transition-all">Get a Free Quote</Link>
-            <a href="tel:2812312944" className="border border-gray-500 text-gray-300 font-semibold px-7 py-3.5 rounded-lg">Call (281) 231-2944</a>
+            <section className="relative bg-[#0A0A0A] min-h-[560px] flex items-center overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.pexels.com/photos/6804585/pexels-photo-6804585.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+            alt="Healthcare facility network cabling professional installation"
+            className="w-full h-full object-cover opacity-60"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/75 to-[#0A0A0A]/30" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
+          <div className="max-w-2xl">
+            <h1 className="text-5xl sm:text-6xl font-extrabold text-white mb-6">Cabling for <span className="gradient-text">Healthcare & Education</span> in Houston</h1>
+            <p className="text-xl text-gray-300 mb-8">Code-compliant structured cabling and low voltage infrastructure for medical facilities, clinics, schools, and universities throughout the Houston area.</p>
+            <div className="flex gap-4 flex-wrap">
+              <a href="/get-a-quote/" className="bg-[#DC2626] hover:bg-red-600 text-white font-bold px-7 py-3.5 rounded-lg transition-all">Get a Free Quote</a>
+              <a href="tel:2812312944" className="border border-gray-500 text-gray-300 font-semibold px-7 py-3.5 rounded-lg">Call (281) 231-2944</a>
+            </div>
           </div>
         </div>
       </section>
