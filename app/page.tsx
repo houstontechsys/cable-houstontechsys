@@ -155,15 +155,15 @@ export default function HomePage() {
       />
 
       {/* ── HERO ── */}
-      <section className="relative min-h-[90vh] flex items-center bg-[#0A1628] overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center bg-[#0A0A0A] overflow-hidden">
         <div className="absolute inset-0">
           <img src="https://images.pexels.com/photos/4716292/pexels-photo-4716292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920" alt="Commercial network cabling installation" className="w-full h-full object-cover opacity-30" />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628]/95 via-[#0A1628]/80 to-[#1E3A5F]/60 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0A0A0A]/95 via-[#0A0A0A]/80 to-[#222222]/60 pointer-events-none" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-[#F97316]/10 border border-[#F97316]/30 rounded-full px-4 py-1.5 text-sm text-[#F97316] font-medium mb-6">
-              <span className="w-2 h-2 bg-[#F97316] rounded-full animate-pulse" />
+            <div className="inline-flex items-center gap-2 bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-full px-4 py-1.5 text-sm text-[#DC2626] font-medium mb-6">
+              <span className="w-2 h-2 bg-[#DC2626] rounded-full animate-pulse" />
               Licensed & Bonded in Texas
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
@@ -177,7 +177,7 @@ export default function HomePage() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/get-a-quote/"
-                className="bg-[#F97316] hover:bg-orange-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-all shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40"
+                className="bg-[#DC2626] hover:bg-red-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-all shadow-lg shadow-red-600/20 hover:shadow-red-600/40"
               >
                 Get a Free Quote
               </Link>
@@ -193,7 +193,7 @@ export default function HomePage() {
       </section>
 
       {/* ── STATS BAR ── */}
-      <section className="bg-[#1E3A5F] border-y border-[#2a4f7a]">
+      <section className="bg-[#222222] border-y border-[#2a2a2a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
@@ -203,7 +203,7 @@ export default function HomePage() {
               { stat: '24/7', label: 'Support Available' },
             ].map(({ stat, label }) => (
               <div key={label}>
-                <p className="text-2xl font-extrabold text-[#F97316]">{stat}</p>
+                <p className="text-2xl font-extrabold text-[#DC2626]">{stat}</p>
                 <p className="text-sm text-gray-300 mt-1">{label}</p>
               </div>
             ))}
@@ -212,7 +212,7 @@ export default function HomePage() {
       </section>
 
       {/* ── SERVICES GRID ── */}
-      <section className="py-24 bg-[#0A1628]">
+      <section className="py-24 bg-[#0A0A0A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Commercial Cabling Services</h2>
@@ -225,7 +225,7 @@ export default function HomePage() {
               <Link
                 key={s.href}
                 href={s.href}
-                className="group bg-[#112240] border border-[#1E3A5F] hover:border-[#F97316]/50 rounded-xl overflow-hidden transition-all"
+                className="group bg-[#141414] border border-[#222222] hover:border-[#DC2626]/50 rounded-xl overflow-hidden transition-all"
               >
                 <div className="h-44 overflow-hidden">
                   <img src={s.img} alt={s.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
@@ -233,7 +233,7 @@ export default function HomePage() {
                 <div className="p-6">
                   <h3 className="text-white font-semibold text-lg mb-2">{s.title}</h3>
                   <p className="text-gray-400 text-sm leading-relaxed mb-4">{s.desc}</p>
-                  <span className="text-[#F97316] text-sm font-medium group-hover:underline">Learn more →</span>
+                  <span className="text-[#DC2626] text-sm font-medium group-hover:underline">Learn more →</span>
                 </div>
               </Link>
             ))}
@@ -242,7 +242,7 @@ export default function HomePage() {
       </section>
 
       {/* ── WHY CHOOSE HTS ── */}
-      <section className="py-24 bg-[#060e1a]">
+      <section className="py-24 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Why Houston TechSys?</h2>
@@ -250,7 +250,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {pillars.map((p) => (
-              <div key={p.title} className="border-l-2 border-[#F97316] pl-5">
+              <div key={p.title} className="border-l-2 border-[#DC2626] pl-5">
                 <h3 className="text-white font-semibold text-lg mb-2">{p.title}</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">{p.desc}</p>
               </div>
@@ -260,7 +260,7 @@ export default function HomePage() {
       </section>
 
       {/* ── INDUSTRIES ── */}
-      <section className="py-24 bg-[#0A1628]">
+      <section className="py-24 bg-[#0A0A0A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Who We Work With</h2>
@@ -271,7 +271,7 @@ export default function HomePage() {
               <Link
                 key={i.href}
                 href={i.href}
-                className="group bg-[#112240] border border-[#1E3A5F] hover:border-[#F97316]/50 rounded-xl overflow-hidden transition-all"
+                className="group bg-[#141414] border border-[#222222] hover:border-[#DC2626]/50 rounded-xl overflow-hidden transition-all"
               >
                 <div className="h-40 overflow-hidden">
                   <img src={i.img} alt={i.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
@@ -287,7 +287,7 @@ export default function HomePage() {
       </section>
 
       {/* ── HOW IT WORKS ── */}
-      <section className="py-24 bg-[#060e1a]">
+      <section className="py-24 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">How It Works</h2>
@@ -296,7 +296,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((s) => (
               <div key={s.step} className="relative">
-                <div className="w-12 h-12 bg-[#F97316]/10 border border-[#F97316]/30 rounded-xl flex items-center justify-center text-[#F97316] font-bold text-lg mb-4">
+                <div className="w-12 h-12 bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-xl flex items-center justify-center text-[#DC2626] font-bold text-lg mb-4">
                   {s.step}
                 </div>
                 <h3 className="text-white font-semibold text-lg mb-2">{s.title}</h3>
@@ -308,7 +308,7 @@ export default function HomePage() {
       </section>
 
       {/* ── TESTIMONIALS ── */}
-      <section className="py-24 bg-[#0A1628]">
+      <section className="py-24 bg-[#0A0A0A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">What Our Clients Say</h2>
@@ -316,10 +316,10 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {testimonials.map((t) => (
-              <div key={t.author} className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-6">
+              <div key={t.author} className="bg-[#141414] border border-[#222222] rounded-xl p-6">
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5 text-[#F97316]" fill="currentColor" viewBox="0 0 20 20">
+                    <svg key={i} className="w-5 h-5 text-[#DC2626]" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   ))}
@@ -336,24 +336,24 @@ export default function HomePage() {
       </section>
 
       {/* ── CTA BANNER ── */}
-      <section className="py-20 bg-[#F97316]">
+      <section className="py-20 bg-[#DC2626]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">
             Ready to Get Started?
           </h2>
-          <p className="text-orange-100 text-lg mb-8">
+          <p className="text-red-100 text-lg mb-8">
             Get your free cabling assessment and quote. No obligation — just a clear plan and honest pricing.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
               href="/get-a-quote/"
-              className="bg-white text-[#F97316] hover:bg-orange-50 font-bold px-8 py-4 rounded-lg text-lg transition-all"
+              className="bg-white text-[#DC2626] hover:bg-red-50 font-bold px-8 py-4 rounded-lg text-lg transition-all"
             >
               Get a Free Quote
             </Link>
             <a
               href="tel:2812312944"
-              className="border-2 border-white text-white hover:bg-white hover:text-[#F97316] font-bold px-8 py-4 rounded-lg text-lg transition-all"
+              className="border-2 border-white text-white hover:bg-white hover:text-[#DC2626] font-bold px-8 py-4 rounded-lg text-lg transition-all"
             >
               Call (281) 231-2944
             </a>

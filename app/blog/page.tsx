@@ -14,20 +14,20 @@ const posts = [
 export default function BlogPage() {
   return (
     <>
-      <section className="bg-[#0A1628] dot-grid py-20 text-center">
+      <section className="bg-[#0A0A0A] dot-grid py-20 text-center">
         <div className="max-w-3xl mx-auto px-4">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Cabling <span className="gradient-text">Resources & Guides</span></h1>
           <p className="text-xl text-gray-300">Practical info for building owners, GCs, and facility managers in Houston.</p>
         </div>
       </section>
-      <section className="py-20 bg-[#060e1a]">
+      <section className="py-20 bg-[#050505]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           {posts.map((p) => (
-            <div key={p.slug} className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-6 hover:border-[#F97316]/50 transition-all">
+            <div key={p.slug} className="bg-[#141414] border border-[#222222] rounded-xl p-6 hover:border-[#DC2626]/50 transition-all">
               <p className="text-gray-500 text-xs mb-2">{p.date}</p>
               <h2 className="text-white font-bold text-lg mb-3">{p.title}</h2>
               <p className="text-gray-400 text-sm leading-relaxed mb-4">{p.excerpt}</p>
-              <span className="text-[#F97316] text-sm font-medium">Read more →</span>
+              <span className="text-[#DC2626] text-sm font-medium">Read more →</span>
             </div>
           ))}
         </div>

@@ -28,23 +28,23 @@ const projects = [
 export default function ProjectsPage() {
   return (
     <>
-      <section className="bg-[#0A1628] dot-grid py-20 text-center">
+      <section className="bg-[#0A0A0A] dot-grid py-20 text-center">
         <div className="max-w-3xl mx-auto px-4">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Our <span className="gradient-text">Projects</span></h1>
           <p className="text-xl text-gray-300">Real work. Real results. A sample of what Houston TechSys delivers.</p>
         </div>
       </section>
-      <section className="py-20 bg-[#060e1a]">
+      <section className="py-20 bg-[#050505]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           {projects.map((p) => (
-            <div key={p.title} className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-8">
-              <p className="text-[#F97316] text-sm font-semibold uppercase tracking-wider mb-2">{p.category}</p>
+            <div key={p.title} className="bg-[#141414] border border-[#222222] rounded-xl p-8">
+              <p className="text-[#DC2626] text-sm font-semibold uppercase tracking-wider mb-2">{p.category}</p>
               <h2 className="text-white font-bold text-xl mb-4">{p.title}</h2>
               <p className="text-gray-300 leading-relaxed mb-5">{p.summary}</p>
               <ul className="grid grid-cols-2 gap-2">
                 {p.highlights.map((h) => (
                   <li key={h} className="flex items-center gap-2 text-sm text-gray-400">
-                    <svg className="w-4 h-4 text-[#F97316] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                    <svg className="w-4 h-4 text-[#DC2626] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                     {h}
                   </li>
                 ))}
@@ -53,9 +53,9 @@ export default function ProjectsPage() {
           ))}
         </div>
       </section>
-      <section className="py-12 bg-[#F97316] text-center">
+      <section className="py-12 bg-[#DC2626] text-center">
         <h2 className="text-2xl font-bold text-white mb-4">Want results like these?</h2>
-        <Link href="/get-a-quote/" className="inline-block bg-white text-[#F97316] font-bold px-8 py-4 rounded-lg text-lg">Get a Free Quote</Link>
+        <Link href="/get-a-quote/" className="inline-block bg-white text-[#DC2626] font-bold px-8 py-4 rounded-lg text-lg">Get a Free Quote</Link>
       </section>
     </>
   )

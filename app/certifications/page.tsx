@@ -15,26 +15,26 @@ const certs = [
 export default function CertificationsPage() {
   return (
     <>
-      <section className="bg-[#0A1628] dot-grid py-20 text-center">
+      <section className="bg-[#0A0A0A] dot-grid py-20 text-center">
         <div className="max-w-3xl mx-auto px-4">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4"><span className="gradient-text">Licensed, Certified</span> & Insured</h1>
           <p className="text-xl text-gray-300">The credentials that back up every Houston TechSys installation.</p>
         </div>
       </section>
-      <section className="py-20 bg-[#060e1a]">
+      <section className="py-20 bg-[#050505]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-5">
           {certs.map((c) => (
-            <div key={c.name} className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-6">
+            <div key={c.name} className="bg-[#141414] border border-[#222222] rounded-xl p-6">
               <h2 className="text-white font-bold text-lg mb-1">{c.name}</h2>
-              <p className="text-[#F97316] text-sm font-medium mb-3">{c.body}</p>
+              <p className="text-[#DC2626] text-sm font-medium mb-3">{c.body}</p>
               <p className="text-gray-400 text-sm leading-relaxed">{c.desc}</p>
             </div>
           ))}
         </div>
       </section>
-      <section className="py-12 bg-[#F97316] text-center">
+      <section className="py-12 bg-[#DC2626] text-center">
         <h2 className="text-2xl font-bold text-white mb-4">Hire a contractor you can trust</h2>
-        <Link href="/get-a-quote/" className="inline-block bg-white text-[#F97316] font-bold px-8 py-4 rounded-lg text-lg">Get a Free Quote</Link>
+        <Link href="/get-a-quote/" className="inline-block bg-white text-[#DC2626] font-bold px-8 py-4 rounded-lg text-lg">Get a Free Quote</Link>
       </section>
     </>
   )

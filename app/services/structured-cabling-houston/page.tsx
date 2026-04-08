@@ -72,12 +72,12 @@ export default function StructuredCablingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       {/* Breadcrumb */}
-      <div className="bg-[#060e1a] border-b border-[#1E3A5F]">
+      <div className="bg-[#050505] border-b border-[#222222]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <nav className="flex text-sm text-gray-500 gap-2">
-            <Link href="/" className="hover:text-[#F97316]">Home</Link>
+            <Link href="/" className="hover:text-[#DC2626]">Home</Link>
             <span>/</span>
-            <Link href="/services/" className="hover:text-[#F97316]">Services</Link>
+            <Link href="/services/" className="hover:text-[#DC2626]">Services</Link>
             <span>/</span>
             <span className="text-gray-300">Structured Cabling Houston</span>
           </nav>
@@ -85,10 +85,10 @@ export default function StructuredCablingPage() {
       </div>
 
       {/* Hero */}
-      <section className="bg-[#0A1628] dot-grid py-20">
+      <section className="bg-[#0A0A0A] dot-grid py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-[#F97316]/10 border border-[#F97316]/30 rounded-full px-4 py-1.5 text-sm text-[#F97316] font-medium mb-6">
+            <div className="inline-flex items-center gap-2 bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-full px-4 py-1.5 text-sm text-[#DC2626] font-medium mb-6">
               Licensed Texas Low Voltage Contractor
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-6">
@@ -99,7 +99,7 @@ export default function StructuredCablingPage() {
               Professional Cat6, Cat6A, and fiber backbone installations for commercial buildings, offices, and data centers across Greater Houston. TIA-568 compliant. Fully tested and certified.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link href="/get-a-quote/" className="bg-[#F97316] hover:bg-orange-500 text-white font-bold px-7 py-3.5 rounded-lg transition-all">
+              <Link href="/get-a-quote/" className="bg-[#DC2626] hover:bg-red-600 text-white font-bold px-7 py-3.5 rounded-lg transition-all">
                 Get a Free Quote
               </Link>
               <a href="tel:2812312944" className="border border-gray-500 hover:border-white text-gray-300 hover:text-white font-semibold px-7 py-3.5 rounded-lg transition-all">
@@ -111,7 +111,7 @@ export default function StructuredCablingPage() {
       </section>
 
       {/* Body Content */}
-      <section className="py-20 bg-[#060e1a]">
+      <section className="py-20 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2 space-y-5 text-gray-300 leading-relaxed">
@@ -134,7 +134,7 @@ export default function StructuredCablingPage() {
 
             {/* Sidebar */}
             <div className="space-y-6">
-              <div className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-6">
+              <div className="bg-[#141414] border border-[#222222] rounded-xl p-6">
                 <h3 className="text-white font-bold text-lg mb-4">What&apos;s Included</h3>
                 <ul className="space-y-2">
                   {[
@@ -148,7 +148,7 @@ export default function StructuredCablingPage() {
                     'As-built drawings & port mapping',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm text-gray-300">
-                      <svg className="w-4 h-4 text-[#F97316] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-4 h-4 text-[#DC2626] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                       {item}
@@ -157,7 +157,7 @@ export default function StructuredCablingPage() {
                 </ul>
               </div>
 
-              <div className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-6">
+              <div className="bg-[#141414] border border-[#222222] rounded-xl p-6">
                 <h3 className="text-white font-bold text-lg mb-4">Who It&apos;s For</h3>
                 <ul className="space-y-2">
                   {[
@@ -171,17 +171,17 @@ export default function StructuredCablingPage() {
                     'Retail & hospitality',
                   ].map((item) => (
                     <li key={item} className="text-sm text-gray-400 flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 bg-[#F97316] rounded-full flex-shrink-0" />
+                      <span className="w-1.5 h-1.5 bg-[#DC2626] rounded-full flex-shrink-0" />
                       {item}
                     </li>
                   ))}
                 </ul>
               </div>
 
-              <div className="bg-[#F97316] rounded-xl p-6 text-center">
+              <div className="bg-[#DC2626] rounded-xl p-6 text-center">
                 <p className="text-white font-bold text-lg mb-2">Free Site Survey</p>
-                <p className="text-orange-100 text-sm mb-4">Get a detailed quote with no obligation.</p>
-                <Link href="/get-a-quote/" className="block bg-white text-[#F97316] hover:bg-orange-50 font-bold px-5 py-3 rounded-lg transition-all text-sm">
+                <p className="text-red-100 text-sm mb-4">Get a detailed quote with no obligation.</p>
+                <Link href="/get-a-quote/" className="block bg-white text-[#DC2626] hover:bg-red-50 font-bold px-5 py-3 rounded-lg transition-all text-sm">
                   Request Your Quote
                 </Link>
               </div>
@@ -191,12 +191,12 @@ export default function StructuredCablingPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-[#0A1628]">
+      <section className="py-20 bg-[#0A0A0A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-white mb-10 text-center">Frequently Asked Questions</h2>
           <div className="space-y-4">
             {faqs.map((faq, i) => (
-              <div key={i} className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-6">
+              <div key={i} className="bg-[#141414] border border-[#222222] rounded-xl p-6">
                 <h3 className="text-white font-semibold text-base mb-3">{faq.q}</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">{faq.a}</p>
               </div>
@@ -206,7 +206,7 @@ export default function StructuredCablingPage() {
       </section>
 
       {/* Related Services */}
-      <section className="py-16 bg-[#060e1a]">
+      <section className="py-16 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-8">Related Services</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -216,7 +216,7 @@ export default function StructuredCablingPage() {
               ['AV Network Cabling', '/services/av-network-cabling/'],
               ['Surveillance Systems', '/services/surveillance-camera-installation-houston/'],
             ].map(([label, href]) => (
-              <Link key={href} href={href} className="bg-[#112240] border border-[#1E3A5F] hover:border-[#F97316]/50 rounded-lg p-4 text-sm text-gray-300 hover:text-white transition-all text-center">
+              <Link key={href} href={href} className="bg-[#141414] border border-[#222222] hover:border-[#DC2626]/50 rounded-lg p-4 text-sm text-gray-300 hover:text-white transition-all text-center">
                 {label}
               </Link>
             ))}
@@ -225,15 +225,15 @@ export default function StructuredCablingPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-[#F97316]">
+      <section className="py-20 bg-[#DC2626]">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-extrabold text-white mb-4">Ready to Build Your Cabling Infrastructure?</h2>
-          <p className="text-orange-100 text-lg mb-8">Free site survey, honest pricing, certified installation. Let&apos;s talk.</p>
+          <p className="text-red-100 text-lg mb-8">Free site survey, honest pricing, certified installation. Let&apos;s talk.</p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/get-a-quote/" className="bg-white text-[#F97316] hover:bg-orange-50 font-bold px-8 py-4 rounded-lg text-lg transition-all">
+            <Link href="/get-a-quote/" className="bg-white text-[#DC2626] hover:bg-red-50 font-bold px-8 py-4 rounded-lg text-lg transition-all">
               Get a Free Quote
             </Link>
-            <a href="tel:2812312944" className="border-2 border-white text-white hover:bg-white hover:text-[#F97316] font-bold px-8 py-4 rounded-lg text-lg transition-all">
+            <a href="tel:2812312944" className="border-2 border-white text-white hover:bg-white hover:text-[#DC2626] font-bold px-8 py-4 rounded-lg text-lg transition-all">
               Call (281) 231-2944
             </a>
           </div>

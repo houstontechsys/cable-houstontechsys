@@ -8,13 +8,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: {
-          DEFAULT: '#0A1628',
-          light: '#1E3A5F',
-          mid: '#112240',
+        brand: {
+          red: '#DC2626',
+          black: '#0A0A0A',
+          dark: '#141414',
+          mid: '#222222',
+          grey: '#6B7280',
+          lightgrey: '#D1D5DB',
         },
-        steel: '#1E3A5F',
-        accent: '#F97316',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

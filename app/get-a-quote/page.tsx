@@ -11,7 +11,7 @@ export default function GetAQuotePage() {
   return (
     <>
       {/* Header */}
-      <section className="bg-[#0A1628] dot-grid py-16">
+      <section className="bg-[#0A0A0A] dot-grid py-16">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">
             Get Your <span className="gradient-text">Free Cabling Quote</span>
@@ -23,13 +23,13 @@ export default function GetAQuotePage() {
       </section>
 
       {/* Form + Trust Signals */}
-      <section className="py-16 bg-[#060e1a]">
+      <section className="py-16 bg-[#050505]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
 
             {/* Form */}
             <div className="lg:col-span-2">
-              <div className="bg-[#112240] border border-[#1E3A5F] rounded-2xl p-8">
+              <div className="bg-[#141414] border border-[#222222] rounded-2xl p-8">
                 <h2 className="text-white font-bold text-xl mb-6">Project Details</h2>
                 <form action="https://formspree.io/f/PLACEHOLDER" method="POST" className="space-y-5">
 
@@ -41,7 +41,7 @@ export default function GetAQuotePage() {
                         name="name"
                         required
                         placeholder="John Smith"
-                        className="w-full bg-[#0A1628] border border-[#1E3A5F] focus:border-[#F97316] text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm outline-none transition-colors"
+                        className="w-full bg-[#0A0A0A] border border-[#222222] focus:border-[#DC2626] text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm outline-none transition-colors"
                       />
                     </div>
                     <div>
@@ -51,7 +51,7 @@ export default function GetAQuotePage() {
                         name="company"
                         required
                         placeholder="ABC Properties LLC"
-                        className="w-full bg-[#0A1628] border border-[#1E3A5F] focus:border-[#F97316] text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm outline-none transition-colors"
+                        className="w-full bg-[#0A0A0A] border border-[#222222] focus:border-[#DC2626] text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm outline-none transition-colors"
                       />
                     </div>
                   </div>
@@ -64,7 +64,7 @@ export default function GetAQuotePage() {
                         name="phone"
                         required
                         placeholder="(713) 000-0000"
-                        className="w-full bg-[#0A1628] border border-[#1E3A5F] focus:border-[#F97316] text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm outline-none transition-colors"
+                        className="w-full bg-[#0A0A0A] border border-[#222222] focus:border-[#DC2626] text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm outline-none transition-colors"
                       />
                     </div>
                     <div>
@@ -74,7 +74,7 @@ export default function GetAQuotePage() {
                         name="email"
                         required
                         placeholder="john@company.com"
-                        className="w-full bg-[#0A1628] border border-[#1E3A5F] focus:border-[#F97316] text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm outline-none transition-colors"
+                        className="w-full bg-[#0A0A0A] border border-[#222222] focus:border-[#DC2626] text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm outline-none transition-colors"
                       />
                     </div>
                   </div>
@@ -84,7 +84,7 @@ export default function GetAQuotePage() {
                     <select
                       name="service"
                       required
-                      className="w-full bg-[#0A1628] border border-[#1E3A5F] focus:border-[#F97316] text-white rounded-lg px-4 py-3 text-sm outline-none transition-colors"
+                      className="w-full bg-[#0A0A0A] border border-[#222222] focus:border-[#DC2626] text-white rounded-lg px-4 py-3 text-sm outline-none transition-colors"
                     >
                       <option value="" disabled>Select a service...</option>
                       <option value="structured-cabling">Structured Cabling (Cat6/Cat6A)</option>
@@ -107,7 +107,7 @@ export default function GetAQuotePage() {
                       required
                       rows={4}
                       placeholder="Tell us about your project — building size, number of drops needed, timeline, special requirements, etc."
-                      className="w-full bg-[#0A1628] border border-[#1E3A5F] focus:border-[#F97316] text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm outline-none transition-colors resize-none"
+                      className="w-full bg-[#0A0A0A] border border-[#222222] focus:border-[#DC2626] text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm outline-none transition-colors resize-none"
                     />
                   </div>
 
@@ -115,7 +115,7 @@ export default function GetAQuotePage() {
                     <label className="block text-sm font-medium text-gray-300 mb-1.5">Project Timeline</label>
                     <select
                       name="timeline"
-                      className="w-full bg-[#0A1628] border border-[#1E3A5F] focus:border-[#F97316] text-white rounded-lg px-4 py-3 text-sm outline-none transition-colors"
+                      className="w-full bg-[#0A0A0A] border border-[#222222] focus:border-[#DC2626] text-white rounded-lg px-4 py-3 text-sm outline-none transition-colors"
                     >
                       <option value="">Select timeline...</option>
                       <option value="asap">ASAP / Emergency</option>
@@ -128,7 +128,7 @@ export default function GetAQuotePage() {
 
                   <button
                     type="submit"
-                    className="w-full bg-[#F97316] hover:bg-orange-500 text-white font-bold py-4 rounded-lg text-lg transition-all shadow-lg shadow-orange-500/20"
+                    className="w-full bg-[#DC2626] hover:bg-red-600 text-white font-bold py-4 rounded-lg text-lg transition-all shadow-lg shadow-red-600/20"
                   >
                     Submit Quote Request
                   </button>
@@ -139,7 +139,7 @@ export default function GetAQuotePage() {
 
             {/* Trust Signals */}
             <div className="space-y-5">
-              <div className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-5">
+              <div className="bg-[#141414] border border-[#222222] rounded-xl p-5">
                 <h3 className="text-white font-bold text-base mb-4">Why Choose Houston TechSys</h3>
                 <ul className="space-y-3">
                   {[
@@ -160,15 +160,15 @@ export default function GetAQuotePage() {
                 </ul>
               </div>
 
-              <div className="bg-[#F97316]/10 border border-[#F97316]/30 rounded-xl p-5">
+              <div className="bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-xl p-5">
                 <p className="text-white font-bold text-base mb-1">Prefer to call?</p>
                 <p className="text-gray-400 text-sm mb-3">Speak directly with a cabling specialist.</p>
-                <a href="tel:2812312944" className="block bg-[#F97316] hover:bg-orange-500 text-white font-bold px-5 py-3 rounded-lg text-center transition-all text-sm">
+                <a href="tel:2812312944" className="block bg-[#DC2626] hover:bg-red-600 text-white font-bold px-5 py-3 rounded-lg text-center transition-all text-sm">
                   Call (281) 231-2944
                 </a>
               </div>
 
-              <div className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-5">
+              <div className="bg-[#141414] border border-[#222222] rounded-xl p-5">
                 <p className="text-gray-400 text-sm italic leading-relaxed">
                   &ldquo;They responded within the hour, had a quote to me by end of day, and finished the job two days early. Best low voltage contractor we&apos;ve used.&rdquo;
                 </p>

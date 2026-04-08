@@ -14,20 +14,20 @@ const industries = [
 export default function IndustriesPage() {
   return (
     <>
-      <section className="bg-[#0A1628] dot-grid py-20 text-center">
+      <section className="bg-[#0A0A0A] dot-grid py-20 text-center">
         <div className="max-w-3xl mx-auto px-4">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Industries <span className="gradient-text">We Serve</span></h1>
           <p className="text-xl text-gray-300">Commercial cabling expertise for the buyers who need it most.</p>
         </div>
       </section>
-      <section className="py-20 bg-[#060e1a]">
+      <section className="py-20 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
           {industries.map((i) => (
-            <Link key={i.href} href={i.href} className="group bg-[#112240] border border-[#1E3A5F] hover:border-[#F97316]/50 rounded-xl p-8 transition-all">
+            <Link key={i.href} href={i.href} className="group bg-[#141414] border border-[#222222] hover:border-[#DC2626]/50 rounded-xl p-8 transition-all">
               <div className="text-4xl mb-4">{i.icon}</div>
               <h2 className="text-white font-bold text-xl mb-3">{i.title}</h2>
               <p className="text-gray-400 leading-relaxed mb-4">{i.desc}</p>
-              <span className="text-[#F97316] font-medium group-hover:underline">Learn more →</span>
+              <span className="text-[#DC2626] font-medium group-hover:underline">Learn more →</span>
             </Link>
           ))}
         </div>

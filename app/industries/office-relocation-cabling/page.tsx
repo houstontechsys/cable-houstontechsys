@@ -60,12 +60,12 @@ export default function OfficeRelocationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       {/* Breadcrumb */}
-      <div className="bg-[#060e1a] border-b border-[#1E3A5F]">
+      <div className="bg-[#050505] border-b border-[#222222]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <nav className="flex text-sm text-gray-500 gap-2">
-            <Link href="/" className="hover:text-[#F97316]">Home</Link>
+            <Link href="/" className="hover:text-[#DC2626]">Home</Link>
             <span>/</span>
-            <Link href="/industries/" className="hover:text-[#F97316]">Industries</Link>
+            <Link href="/industries/" className="hover:text-[#DC2626]">Industries</Link>
             <span>/</span>
             <span className="text-gray-300">Office Relocation Cabling</span>
           </nav>
@@ -73,10 +73,10 @@ export default function OfficeRelocationPage() {
       </div>
 
       {/* Hero */}
-      <section className="bg-[#0A1628] dot-grid py-20">
+      <section className="bg-[#0A0A0A] dot-grid py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 bg-[#F97316]/10 border border-[#F97316]/30 rounded-full px-4 py-1.5 text-sm text-[#F97316] font-medium mb-6">
+            <div className="inline-flex items-center gap-2 bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-full px-4 py-1.5 text-sm text-[#DC2626] font-medium mb-6">
               📦 Office Relocation Specialists
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-6">
@@ -87,7 +87,7 @@ export default function OfficeRelocationPage() {
               Cabling is the single biggest cause of office move delays. Technology infrastructure takes 2–4 weeks minimum — and if you wait too long to book your cabling contractor, your entire move timeline slips. Houston TechSys keeps your relocation on track.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link href="/get-a-quote/" className="bg-[#F97316] hover:bg-orange-500 text-white font-bold px-7 py-3.5 rounded-lg transition-all">
+              <Link href="/get-a-quote/" className="bg-[#DC2626] hover:bg-red-600 text-white font-bold px-7 py-3.5 rounded-lg transition-all">
                 Get a Relocation Quote
               </Link>
               <a href="tel:2812312944" className="border border-gray-500 hover:border-white text-gray-300 hover:text-white font-semibold px-7 py-3.5 rounded-lg transition-all">
@@ -99,7 +99,7 @@ export default function OfficeRelocationPage() {
       </section>
 
       {/* Pain Points → Solutions */}
-      <section className="py-20 bg-[#060e1a]">
+      <section className="py-20 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-white mb-4">We Know What Kills Office Moves</h2>
@@ -107,7 +107,7 @@ export default function OfficeRelocationPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {painPoints.map((p) => (
-              <div key={p.pain} className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-6">
+              <div key={p.pain} className="bg-[#141414] border border-[#222222] rounded-xl p-6">
                 <div className="flex items-start gap-3 mb-3">
                   <span className="text-red-400 text-lg mt-0.5">⚠️</span>
                   <p className="text-white font-semibold">{p.pain}</p>
@@ -123,7 +123,7 @@ export default function OfficeRelocationPage() {
       </section>
 
       {/* Keep Your Move on Schedule Section */}
-      <section className="py-20 bg-[#0A1628]">
+      <section className="py-20 bg-[#0A0A0A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -140,23 +140,23 @@ export default function OfficeRelocationPage() {
                 </p>
               </div>
               <div className="mt-6 flex flex-wrap gap-4">
-                <div className="bg-[#112240] border border-[#1E3A5F] rounded-lg px-4 py-3 text-sm text-center">
-                  <p className="text-[#F97316] font-bold text-xl">8–12 wks</p>
+                <div className="bg-[#141414] border border-[#222222] rounded-lg px-4 py-3 text-sm text-center">
+                  <p className="text-[#DC2626] font-bold text-xl">8–12 wks</p>
                   <p className="text-gray-400">Book this early</p>
                 </div>
-                <div className="bg-[#112240] border border-[#1E3A5F] rounded-lg px-4 py-3 text-sm text-center">
-                  <p className="text-[#F97316] font-bold text-xl">Day 1</p>
+                <div className="bg-[#141414] border border-[#222222] rounded-lg px-4 py-3 text-sm text-center">
+                  <p className="text-[#DC2626] font-bold text-xl">Day 1</p>
                   <p className="text-gray-400">Team up and running</p>
                 </div>
-                <div className="bg-[#112240] border border-[#1E3A5F] rounded-lg px-4 py-3 text-sm text-center">
-                  <p className="text-[#F97316] font-bold text-xl">100%</p>
+                <div className="bg-[#141414] border border-[#222222] rounded-lg px-4 py-3 text-sm text-center">
+                  <p className="text-[#DC2626] font-bold text-xl">100%</p>
                   <p className="text-gray-400">Runs tested & certified</p>
                 </div>
               </div>
             </div>
-            <div className="bg-[#112240] border border-[#F97316]/30 rounded-xl p-6 lg:p-8">
+            <div className="bg-[#141414] border border-[#DC2626]/30 rounded-xl p-6 lg:p-8">
               <div className="flex items-center gap-3 mb-5">
-                <div className="w-10 h-10 bg-[#F97316]/10 border border-[#F97316]/30 rounded-xl flex items-center justify-center text-[#F97316] text-lg">
+                <div className="w-10 h-10 bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-xl flex items-center justify-center text-[#DC2626] text-lg">
                   ⏱️
                 </div>
                 <h3 className="text-white font-bold text-lg">Timeline Guarantee</h3>
@@ -167,14 +167,14 @@ export default function OfficeRelocationPage() {
               <p className="text-gray-400 text-sm italic">
                 &ldquo;We brought them in for an emergency relocation — 80 drops in 5 days. They pulled it off. Our team was up and running on day one.&rdquo;
               </p>
-              <p className="text-[#F97316] text-sm font-medium mt-2">— IT Director, Houston Law Firm</p>
+              <p className="text-[#DC2626] text-sm font-medium mt-2">— IT Director, Houston Law Firm</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Office Relocation Cabling Checklist */}
-      <section className="py-20 bg-[#060e1a]">
+      <section className="py-20 bg-[#050505]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-white mb-4">Office Relocation Cabling Checklist</h2>
@@ -182,8 +182,8 @@ export default function OfficeRelocationPage() {
           </div>
           <div className="space-y-3">
             {checklist.map((item) => (
-              <div key={item.step} className="bg-[#112240] border border-[#1E3A5F] rounded-xl p-5 flex gap-4">
-                <div className="w-8 h-8 bg-[#F97316] rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
+              <div key={item.step} className="bg-[#141414] border border-[#222222] rounded-xl p-5 flex gap-4">
+                <div className="w-8 h-8 bg-[#DC2626] rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
                   {item.step}
                 </div>
                 <div>
@@ -194,7 +194,7 @@ export default function OfficeRelocationPage() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <Link href="/get-a-quote/" className="inline-block bg-[#F97316] hover:bg-orange-500 text-white font-bold px-8 py-4 rounded-lg text-lg transition-all">
+            <Link href="/get-a-quote/" className="inline-block bg-[#DC2626] hover:bg-red-600 text-white font-bold px-8 py-4 rounded-lg text-lg transition-all">
               Talk to a Relocation Specialist
             </Link>
           </div>
@@ -202,7 +202,7 @@ export default function OfficeRelocationPage() {
       </section>
 
       {/* Services for Relocation */}
-      <section className="py-16 bg-[#0A1628]">
+      <section className="py-16 bg-[#0A0A0A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-white mb-8">What We Install for Office Relocations</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -214,7 +214,7 @@ export default function OfficeRelocationPage() {
               ['WiFi Access Point Cabling', '/services/wifi-network-installation/'],
               ['Phone System Cabling', '/services/phone-systems-houston/'],
             ].map(([label, href]) => (
-              <Link key={href} href={href} className="bg-[#112240] border border-[#1E3A5F] hover:border-[#F97316]/50 rounded-lg p-4 text-sm text-gray-300 hover:text-white transition-all text-center">
+              <Link key={href} href={href} className="bg-[#141414] border border-[#222222] hover:border-[#DC2626]/50 rounded-lg p-4 text-sm text-gray-300 hover:text-white transition-all text-center">
                 {label}
               </Link>
             ))}
@@ -223,17 +223,17 @@ export default function OfficeRelocationPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 bg-[#F97316]">
+      <section className="py-20 bg-[#DC2626]">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-extrabold text-white mb-4">Planning an Office Move in Houston?</h2>
-          <p className="text-orange-100 text-lg mb-8">
+          <p className="text-red-100 text-lg mb-8">
             Book your cabling contractor now — not after your GC is already on site. The earlier you engage us, the smoother your move.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/get-a-quote/" className="bg-white text-[#F97316] hover:bg-orange-50 font-bold px-8 py-4 rounded-lg text-lg transition-all">
+            <Link href="/get-a-quote/" className="bg-white text-[#DC2626] hover:bg-red-50 font-bold px-8 py-4 rounded-lg text-lg transition-all">
               Get a Free Quote
             </Link>
-            <a href="tel:2812312944" className="border-2 border-white text-white hover:bg-white hover:text-[#F97316] font-bold px-8 py-4 rounded-lg text-lg transition-all">
+            <a href="tel:2812312944" className="border-2 border-white text-white hover:bg-white hover:text-[#DC2626] font-bold px-8 py-4 rounded-lg text-lg transition-all">
               Call (281) 231-2944
             </a>
           </div>

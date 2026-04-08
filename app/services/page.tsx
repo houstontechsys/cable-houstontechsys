@@ -20,7 +20,7 @@ const services = [
 export default function ServicesPage() {
   return (
     <>
-      <section className="bg-[#0A1628] dot-grid py-20">
+      <section className="bg-[#0A0A0A] dot-grid py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">
             Commercial Cabling <span className="gradient-text">Services</span>
@@ -30,24 +30,24 @@ export default function ServicesPage() {
           </p>
         </div>
       </section>
-      <section className="py-20 bg-[#060e1a]">
+      <section className="py-20 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((s) => (
-              <Link key={s.href} href={s.href} className="group bg-[#112240] border border-[#1E3A5F] hover:border-[#F97316]/50 rounded-xl p-6 transition-all">
+              <Link key={s.href} href={s.href} className="group bg-[#141414] border border-[#222222] hover:border-[#DC2626]/50 rounded-xl p-6 transition-all">
                 <div className="text-3xl mb-4">{s.icon}</div>
                 <h2 className="text-white font-semibold text-lg mb-2">{s.title}</h2>
                 <p className="text-gray-400 text-sm leading-relaxed mb-4">{s.desc}</p>
-                <span className="text-[#F97316] text-sm font-medium group-hover:underline">Learn more →</span>
+                <span className="text-[#DC2626] text-sm font-medium group-hover:underline">Learn more →</span>
               </Link>
             ))}
           </div>
         </div>
       </section>
-      <section className="py-16 bg-[#F97316] text-center">
+      <section className="py-16 bg-[#DC2626] text-center">
         <h2 className="text-3xl font-extrabold text-white mb-4">Not sure what you need?</h2>
-        <p className="text-orange-100 text-lg mb-6">We&apos;ll assess your space and recommend the right solution. Free, no obligation.</p>
-        <Link href="/get-a-quote/" className="inline-block bg-white text-[#F97316] hover:bg-orange-50 font-bold px-8 py-4 rounded-lg text-lg transition-all">Get a Free Assessment</Link>
+        <p className="text-red-100 text-lg mb-6">We&apos;ll assess your space and recommend the right solution. Free, no obligation.</p>
+        <Link href="/get-a-quote/" className="inline-block bg-white text-[#DC2626] hover:bg-red-50 font-bold px-8 py-4 rounded-lg text-lg transition-all">Get a Free Assessment</Link>
       </section>
     </>
   )
