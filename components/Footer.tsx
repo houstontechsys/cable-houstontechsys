@@ -23,7 +23,7 @@ export default function Footer() {
               Houston&apos;s premier commercial cabling contractor. Licensed, bonded, and trusted by building owners, GCs, and facility managers across the Greater Houston area.
             </p>
             <div className="mt-4 space-y-1">
-              <p className="text-sm text-gray-400"><span className="text-white">Phone:</span> <a href="tel:7139999999" className="hover:text-[#F97316]">(713) 999-9999</a></p>
+              <p className="text-sm text-gray-400"><span className="text-white">Phone:</span> <a href="tel:2812312944" className="hover:text-[#F97316]">(281) 231-2944</a></p>
               <p className="text-sm text-gray-400"><span className="text-white">Email:</span> <a href="mailto:info@houstontechsys.net" className="hover:text-[#F97316]">info@houstontechsys.net</a></p>
               <p className="text-sm text-gray-400"><span className="text-white">Location:</span> Houston, TX</p>
               <p className="text-sm text-gray-400"><span className="text-white">License:</span> TX Low Voltage #[LICENSE]</p>

@@ -20,7 +20,7 @@ const jsonLd = {
     '@type': 'LocalBusiness',
     name: 'Houston TechSys',
     url: 'https://cable.houstontechsys.net',
-    telephone: '+17139999999',
+    telephone: '+12812312944',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Houston',
@@ -102,8 +102,8 @@ export default function StructuredCablingPage() {
               <Link href="/get-a-quote/" className="bg-[#F97316] hover:bg-orange-500 text-white font-bold px-7 py-3.5 rounded-lg transition-all">
                 Get a Free Quote
               </Link>
-              <a href="tel:7139999999" className="border border-gray-500 hover:border-white text-gray-300 hover:text-white font-semibold px-7 py-3.5 rounded-lg transition-all">
-                Call (713) 999-9999
+              <a href="tel:2812312944" className="border border-gray-500 hover:border-white text-gray-300 hover:text-white font-semibold px-7 py-3.5 rounded-lg transition-all">
+                Call (281) 231-2944
               </a>
             </div>
           </div>
@@ -233,8 +233,8 @@ export default function StructuredCablingPage() {
             <Link href="/get-a-quote/" className="bg-white text-[#F97316] hover:bg-orange-50 font-bold px-8 py-4 rounded-lg text-lg transition-all">
               Get a Free Quote
             </Link>
-            <a href="tel:7139999999" className="border-2 border-white text-white hover:bg-white hover:text-[#F97316] font-bold px-8 py-4 rounded-lg text-lg transition-all">
-              Call (713) 999-9999
+            <a href="tel:2812312944" className="border-2 border-white text-white hover:bg-white hover:text-[#F97316] font-bold px-8 py-4 rounded-lg text-lg transition-all">
+              Call (281) 231-2944
             </a>
           </div>
         </div>

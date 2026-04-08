@@ -18,7 +18,7 @@ const jsonLd = {
   name: 'Houston TechSys Cabling & Infrastructure',
   description: 'Commercial cabling contractor in Houston TX specializing in structured cabling, fiber optic, AV networks, surveillance systems, and WiFi infrastructure.',
   url: 'https://cable.houstontechsys.net',
-  telephone: '+17139999999',
+  telephone: '+12812312944',
   email: 'info@houstontechsys.net',
   address: {
     '@type': 'PostalAddress',
@@ -373,10 +373,10 @@ export default function HomePage() {
               Get a Free Quote
             </Link>
             <a
-              href="tel:7139999999"
+              href="tel:2812312944"
               className="border-2 border-white text-white hover:bg-white hover:text-[#F97316] font-bold px-8 py-4 rounded-lg text-lg transition-all"
             >
-              Call (713) 999-9999
+              Call (281) 231-2944
             </a>
           </div>
         </div>

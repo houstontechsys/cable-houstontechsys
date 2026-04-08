@@ -14,7 +14,7 @@ export default function CommercialBuildingsPage() {
           <p className="text-xl text-gray-300 mb-8">Reliable, code-compliant cabling infrastructure for multi-tenant office towers, commercial buildings, and mixed-use developments. Minimal disruption. Maximum performance.</p>
           <div className="flex gap-4 flex-wrap">
             <Link href="/get-a-quote/" className="bg-[#F97316] hover:bg-orange-500 text-white font-bold px-7 py-3.5 rounded-lg transition-all">Get a Free Quote</Link>
-            <a href="tel:7139999999" className="border border-gray-500 text-gray-300 font-semibold px-7 py-3.5 rounded-lg">Call (713) 999-9999</a>
+            <a href="tel:2812312944" className="border border-gray-500 text-gray-300 font-semibold px-7 py-3.5 rounded-lg">Call (281) 231-2944</a>
           </div>
         </div>
       </section>

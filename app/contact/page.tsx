@@ -29,7 +29,7 @@ export default function ContactPage() {
                   <div className="w-10 h-10 bg-[#F97316]/10 rounded-lg flex items-center justify-center text-[#F97316]">📞</div>
                   <div>
                     <p className="text-gray-400 text-xs">Phone</p>
-                    <a href="tel:7139999999" className="text-white font-semibold hover:text-[#F97316]">(713) 999-9999</a>
+                    <a href="tel:2812312944" className="text-white font-semibold hover:text-[#F97316]">(281) 231-2944</a>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">

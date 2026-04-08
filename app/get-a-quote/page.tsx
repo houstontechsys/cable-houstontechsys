@@ -163,8 +163,8 @@ export default function GetAQuotePage() {
               <div className="bg-[#F97316]/10 border border-[#F97316]/30 rounded-xl p-5">
                 <p className="text-white font-bold text-base mb-1">Prefer to call?</p>
                 <p className="text-gray-400 text-sm mb-3">Speak directly with a cabling specialist.</p>
-                <a href="tel:7139999999" className="block bg-[#F97316] hover:bg-orange-500 text-white font-bold px-5 py-3 rounded-lg text-center transition-all text-sm">
-                  Call (713) 999-9999
+                <a href="tel:2812312944" className="block bg-[#F97316] hover:bg-orange-500 text-white font-bold px-5 py-3 rounded-lg text-center transition-all text-sm">
+                  Call (281) 231-2944
                 </a>
               </div>
 

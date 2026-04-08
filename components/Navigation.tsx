@@ -100,7 +100,7 @@ export default function Navigation() {
             <Link href="/projects/" className="text-gray-300 hover:text-white text-sm font-medium">Projects</Link>
             <Link href="/about/" className="text-gray-300 hover:text-white text-sm font-medium">About</Link>
             <Link href="/blog/" className="text-gray-300 hover:text-white text-sm font-medium">Blog</Link>
-            <a href="tel:7139999999" className="text-gray-300 hover:text-white text-sm font-medium">(713) 999-9999</a>
+            <a href="tel:2812312944" className="text-gray-300 hover:text-white text-sm font-medium">(281) 231-2944</a>
             <Link href="/get-a-quote/" className="bg-[#F97316] hover:bg-orange-500 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">
               Get a Quote
             </Link>
@@ -137,7 +137,7 @@ export default function Navigation() {
             <Link href="/projects/" className="block text-sm text-gray-300 hover:text-white" onClick={() => setMobileOpen(false)}>Projects</Link>
             <Link href="/about/" className="block text-sm text-gray-300 hover:text-white" onClick={() => setMobileOpen(false)}>About</Link>
             <Link href="/blog/" className="block text-sm text-gray-300 hover:text-white" onClick={() => setMobileOpen(false)}>Blog</Link>
-            <a href="tel:7139999999" className="block text-sm text-[#F97316] font-semibold">(713) 999-9999</a>
+            <a href="tel:2812312944" className="block text-sm text-[#F97316] font-semibold">(281) 231-2944</a>
             <Link href="/get-a-quote/" className="block bg-[#F97316] text-white text-sm font-semibold px-4 py-2 rounded-lg text-center" onClick={() => setMobileOpen(false)}>
               Get a Free Quote
             </Link>

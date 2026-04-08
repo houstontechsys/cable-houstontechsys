@@ -15,7 +15,7 @@ export default function NetworkCablingPage() {
             <p className="text-xl text-gray-300 mb-8">End-to-end network cabling for commercial offices, data centers, warehouses, and enterprise environments. Reliable, certified, and built to last.</p>
             <div className="flex gap-4 flex-wrap">
               <Link href="/get-a-quote/" className="bg-[#F97316] hover:bg-orange-500 text-white font-bold px-7 py-3.5 rounded-lg transition-all">Get a Free Quote</Link>
-              <a href="tel:7139999999" className="border border-gray-500 hover:border-white text-gray-300 font-semibold px-7 py-3.5 rounded-lg transition-all">Call (713) 999-9999</a>
+              <a href="tel:2812312944" className="border border-gray-500 hover:border-white text-gray-300 font-semibold px-7 py-3.5 rounded-lg transition-all">Call (281) 231-2944</a>
             </div>
           </div>
         </div>
