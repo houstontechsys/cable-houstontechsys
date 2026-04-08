@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Commercial Cabling Services Houston TX | Houston TechSys',
-  description: 'Full-service commercial cabling in Houston TX. Structured cabling, fiber optic, AV networks, surveillance, WiFi, and phone systems. Licensed & bonded.',
+  description: 'Full-service commercial cabling in Houston TX. Structured cabling, fiber optic, AV networks, surveillance, WiFi, and phone systems. Fully insured.',
   alternates: { canonical: 'https://cable.houstontechsys.net/services/' },
 }
 

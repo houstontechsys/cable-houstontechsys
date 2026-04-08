@@ -20,7 +20,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Houston&apos;s premier commercial cabling contractor. Licensed, bonded, and trusted by building owners, GCs, and facility managers across the Greater Houston area.
+              Houston&apos;s premier commercial cabling contractor. Insured and trusted by building owners, GCs, and facility managers across the Greater Houston area.
             </p>
             <div className="mt-4 space-y-1">
               <p className="text-sm text-gray-400"><span className="text-white">Phone:</span> <a href="tel:2812312944" className="hover:text-[#DC2626]">(281) 231-2944</a></p>
@@ -100,7 +100,7 @@ export default function Footer() {
 
         <div className="border-t border-[#222222] mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Houston TechSys. All rights reserved. Licensed & Bonded in Texas.
+            © {new Date().getFullYear()} Houston TechSys. All rights reserved. Fully Insured in Texas.
           </p>
           <div className="flex gap-4 text-sm text-gray-500">
             <Link href="/privacy/" className="hover:text-gray-300">Privacy Policy</Link>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: 'Commercial Cabling Contractor Houston TX | Houston TechSys',
     template: '%s | Houston TechSys Cabling',
   },
-  description: 'Houston TechSys is Houston\'s premier commercial cabling contractor — structured cabling, fiber optic, AV networks, surveillance, and WiFi infrastructure. Licensed & bonded.',
+  description: 'Houston TechSys is Houston\'s premier commercial cabling contractor — structured cabling, fiber optic, AV networks, surveillance, and WiFi infrastructure. Fully insured.',
   metadataBase: new URL('https://cable.houstontechsys.net'),
   openGraph: {
     siteName: 'Houston TechSys Cabling',

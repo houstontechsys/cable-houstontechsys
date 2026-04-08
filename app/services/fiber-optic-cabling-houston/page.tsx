@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Fiber Optic Cabling Houston TX | Houston TechSys',
-  description: 'Fiber optic cabling installation in Houston TX. Single-mode and multi-mode fiber for backbone, data centers, and inter-building runs. Licensed contractor.',
+  description: 'Fiber optic cabling installation in Houston TX. Single-mode and multi-mode fiber for backbone, data centers, and inter-building runs. Insured contractor.',
   alternates: { canonical: 'https://cable.houstontechsys.net/services/fiber-optic-cabling-houston/' },
 }
 export default function FiberOpticPage() {

@@ -143,7 +143,7 @@ export default function GetAQuotePage() {
                 <h3 className="text-white font-bold text-base mb-4">Why Choose Houston TechSys</h3>
                 <ul className="space-y-3">
                   {[
-                    ['🏅', 'Texas Licensed Low Voltage Contractor'],
+                    ['Fully Insured', 'GL & Workers Comp'],
                     ['🔒', 'Fully Bonded & Insured'],
                     ['📋', 'BICSI-Trained Technicians'],
                     ['⚡', 'Response Within 4 Business Hours'],

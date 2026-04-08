@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Phone Systems Houston TX | VoIP & Business Phone Cabling | Houston TechSys',
-  description: 'Business phone system cabling and VoIP infrastructure in Houston TX. We handle the low voltage cabling for your phone system installation. Licensed contractor.',
+  description: 'Business phone system cabling and VoIP infrastructure in Houston TX. We handle the low voltage cabling for your phone system installation. Insured contractor.',
   alternates: { canonical: 'https://cable.houstontechsys.net/services/phone-systems-houston/' },
 }
 export default function PhoneSystemsPage() {

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://cable.houstontechsys.net/' },
   openGraph: {
     title: 'Commercial Cabling Contractor Houston TX | Houston TechSys',
-    description: 'Structured cabling, fiber optic, AV networks, surveillance & WiFi. Licensed & bonded in Houston, TX.',
+    description: 'Structured cabling, fiber optic, AV networks, surveillance & WiFi. Fully insured in Houston, TX.',
     url: 'https://cable.houstontechsys.net/',
   },
 }
@@ -77,8 +77,8 @@ const services = [
 
 const pillars = [
   {
-    title: 'Licensed & Certified',
-    desc: 'Texas licensed low voltage contractor. BICSI-trained technicians. Fully bonded and insured.',
+    title: 'Insured & Professional',
+    desc: 'Fully insured cabling contractor. BICSI-trained technicians. Fully bonded and insured.',
   },
   {
     title: 'On-Time Delivery',
@@ -124,7 +124,7 @@ const industries = [
 const steps = [
   { step: '01', title: 'Free Site Survey', desc: 'We visit your site, assess your needs, and identify the best cabling solution for your space and budget.' },
   { step: '02', title: 'Custom Design', desc: 'Our team designs a complete cabling plan — pathway routing, panel layout, port counts, and documentation.' },
-  { step: '03', title: 'Expert Installation', desc: 'Licensed technicians install your cabling to TIA standards. Clean runs, proper labels, no shortcuts.' },
+  { step: '03', title: 'Expert Installation', desc: 'Professional technicians install your cabling to TIA standards. Clean runs, proper labels, no shortcuts.' },
   { step: '04', title: 'Testing & Handoff', desc: 'Every run is tested and certified. You receive complete as-built documentation before we leave.' },
 ]
 
@@ -140,7 +140,7 @@ const testimonials = [
     role: "IT Director, Houston Law Firm",
   },
   {
-    quote: "Best low voltage contractor we've used in 15 years of construction. Licensed, professional, and the documentation they hand off is better than anything else I've seen.",
+    quote: "Best low voltage contractor we've used in 15 years of construction. Professional, and the documentation they hand off is better than anything else I've seen.",
     author: "David R.",
     role: "Project Manager, Texas Commercial Builders",
   },
@@ -164,7 +164,7 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-full px-4 py-1.5 text-sm text-[#DC2626] font-medium mb-6">
               <span className="w-2 h-2 bg-[#DC2626] rounded-full animate-pulse" />
-              Licensed & Bonded in Texas
+              Fully Insured in Texas
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
               Houston&apos;s Most Trusted<br />
@@ -199,7 +199,7 @@ export default function HomePage() {
             {[
               { stat: '500+', label: 'Projects Completed' },
               { stat: '15+', label: 'Years Experience' },
-              { stat: 'Licensed', label: '& Bonded in Texas' },
+              { stat: 'Insured', label: '& Professional' },
               { stat: '24/7', label: 'Support Available' },
             ].map(({ stat, label }) => (
               <div key={label}>

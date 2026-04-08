@@ -3,11 +3,11 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Structured Cabling Contractor Houston TX | Houston TechSys',
-  description: 'Licensed structured cabling contractor in Houston TX. Cat6, Cat6A, fiber backbone, patch panels, and certification. Free quote for commercial & office projects.',
+  description: 'Insured structured cabling contractor in Houston TX. Cat6, Cat6A, fiber backbone, patch panels, and certification. Free quote for commercial & office projects.',
   alternates: { canonical: 'https://cable.houstontechsys.net/services/structured-cabling-houston/' },
   openGraph: {
     title: 'Structured Cabling Contractor Houston TX | Houston TechSys',
-    description: 'Professional structured cabling installation for commercial buildings, offices, and data centers in Houston. Licensed & bonded.',
+    description: 'Professional structured cabling installation for commercial buildings, offices, and data centers in Houston. Fully insured.',
     url: 'https://cable.houstontechsys.net/services/structured-cabling-houston/',
   },
 }
@@ -53,15 +53,15 @@ const faqs = [
   },
   {
     q: 'Are your technicians certified?',
-    a: 'Yes. Our technicians are BICSI-trained and we operate as a licensed Texas low voltage contractor. All installations meet or exceed TIA-568 standards. You receive complete testing reports and certification documentation at project completion.',
+    a: 'Yes. Our technicians are BICSI-trained and we operate as a insured cabling contractor. All installations meet or exceed TIA-568 standards. You receive complete testing reports and certification documentation at project completion.',
   },
   {
     q: 'When should I choose Cat6A over Cat6?',
     a: 'Cat6A supports 10-Gigabit Ethernet up to 100 meters and is ideal for data centers, high-density environments, and future-proofing. For standard office environments with 1GbE needs, Cat6 is typically sufficient. We\'ll recommend the right solution during your site survey.',
   },
   {
-    q: 'Do I need a licensed contractor for structured cabling in Texas?',
-    a: 'Yes. In Texas, structured cabling and low voltage work requires a licensed contractor. Hiring unlicensed installers can result in failed inspections, voided warranties, and insurance issues. Houston TechSys is fully licensed, bonded, and insured.',
+    q: 'Do I need a insured contractor for structured cabling in Texas?',
+    a: 'Yes. In Texas, structured cabling and low voltage work requires a insured contractor. Hiring unlicensed installers can result in failed inspections, voided warranties, and insurance issues. Houston TechSys is fully fully insured.',
   },
 ]
 
@@ -89,7 +89,7 @@ export default function StructuredCablingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-full px-4 py-1.5 text-sm text-[#DC2626] font-medium mb-6">
-              Licensed Texas Low Voltage Contractor
+              Fully Insured Cabling Contractor
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-6">
               Structured Cabling Contractor<br />
@@ -128,7 +128,7 @@ export default function StructuredCablingPage() {
                 Every Houston TechSys installation follows a proven process: site survey and design, pathway planning, installation, thorough testing with a Fluke DSX cable analyzer, and complete as-built documentation handed off at job completion. You know exactly what you have, where every cable runs, and what every port connects to. That documentation is invaluable for future moves, adds, and changes.
               </p>
               <p>
-                We are a licensed Texas low voltage contractor, BICSI-trained, fully bonded and insured. When your cabling contractor is licensed, your installation is code-compliant, inspection-ready, and backed by a company that stands behind its work.
+                We are BICSI-trained and fully insured. Houston TechSys carries commercial general liability and workers' compensation insurance, meeting the requirements of commercial building owners and general contractors.
               </p>
             </div>
 

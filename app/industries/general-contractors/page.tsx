@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Low Voltage Subcontractor for General Contractors Houston TX | Houston TechSys',
-  description: 'Reliable low voltage sub for general contractors in Houston. Structured cabling, AV, surveillance, and WiFi — on schedule, licensed, and fully documented. Call today.',
+  description: 'Reliable low voltage sub for general contractors in Houston. Structured cabling, AV, surveillance, and WiFi — on schedule, and fully documented. Call today.',
   alternates: { canonical: 'https://cable.houstontechsys.net/industries/general-contractors/' },
 }
 export default function GeneralContractorsPage() {
@@ -22,7 +22,7 @@ export default function GeneralContractorsPage() {
         <div className="max-w-3xl mx-auto px-4 space-y-5 text-gray-300 leading-relaxed">
           <p>General contractors need a low voltage sub who operates like a professional: shows up on schedule, communicates proactively, coordinates with other trades, and delivers clean documentation at job completion. Houston TechSys is that sub.</p>
           <p>We understand construction schedules. We know that pulling cable before drywall saves time and money. We know that GCs need us out of the ceiling before the electrician&apos;s final inspection. We know that a missed milestone on our end delays your entire project and damages your relationship with the owner.</p>
-          <p>Houston TechSys is licensed, bonded, and insured to the levels required for commercial subcontracting in Texas. We carry proper liability and workers&apos; comp coverage. Our superintendents communicate directly with your PM. And at job completion, you receive complete as-built documentation — not a pile of cable with no map.</p>
+          <p>Houston TechSys is fully insured to the levels required for commercial subcontracting in Texas. We carry proper liability and workers&apos; comp coverage. Our superintendents communicate directly with your PM. And at job completion, you receive complete as-built documentation — not a pile of cable with no map.</p>
         </div>
       </section>
       <section className="py-12 bg-[#DC2626] text-center">

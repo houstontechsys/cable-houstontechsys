@@ -1,24 +1,24 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 export const metadata: Metadata = {
-  title: 'Certifications & Licensing | Houston TechSys Cabling Houston TX',
-  description: 'Houston TechSys is a licensed Texas low voltage contractor, BICSI-trained, fully bonded and insured. View our certifications and credentials.',
+  title: 'Insurance & Credentials | Houston TechSys Cabling Houston TX',
+  description: 'Houston TechSys is a fully insured commercial cabling contractor in Houston TX — BICSI-trained, carrying GL and workers compensation coverage.',
   alternates: { canonical: 'https://cable.houstontechsys.net/certifications/' },
 }
 const certs = [
-  { name: 'Texas Low Voltage Contractor License', body: 'Texas Department of Licensing and Regulation (TDLR)', desc: 'Required by Texas law for all low voltage cabling and communications installations in commercial buildings.' },
-  { name: 'BICSI Installer Training', body: 'BICSI — Building Industry Consulting Service International', desc: 'BICSI is the gold standard for structured cabling installation training. Our technicians are trained to BICSI INSTC standards.' },
-  { name: 'General Liability Insurance', body: 'Commercial General Liability', desc: 'Houston TechSys carries commercial general liability insurance meeting the requirements of building owners and general contractors.' },
-  { name: "Workers' Compensation Insurance", body: 'State of Texas', desc: "Full workers' compensation coverage for all field technicians. Required for commercial subcontracting work in Texas." },
-  { name: 'Fluke DSX Cable Certification', body: 'Fluke Networks', desc: 'All structured cabling installations are tested and certified using Fluke DSX cable analyzers. You receive actual test results, not verbal assurances.' },
+  { name: 'Commercial General Liability Insurance', body: 'Commercial General Liability', desc: 'Houston TechSys carries commercial general liability insurance meeting the requirements of building owners and general contractors. Coverage details available upon request.' },
+  { name: "Workers' Compensation Insurance", body: 'State of Texas', desc: "Full workers' compensation coverage for all field technicians on every job site. Required for commercial subcontracting work and protects building owners and GCs from liability." },
+  { name: 'BICSI Installer Training', body: 'BICSI — Building Industry Consulting Service International', desc: 'BICSI is the gold standard for structured cabling installation training. Our technicians are trained to BICSI INSTC standards for quality and best practices.' },
+  { name: 'Fluke DSX Cable Certification', body: 'Fluke Networks', desc: 'All structured cabling installations are tested and certified using Fluke DSX cable analyzers. You receive actual certified test results — not verbal assurances.' },
+  { name: 'TIA-568 Standards Compliance', body: 'Telecommunications Industry Association', desc: 'All cabling installations follow TIA-568 structured cabling standards. Every project is documented with as-built drawings and port mapping at completion.' },
 ]
 export default function CertificationsPage() {
   return (
     <>
       <section className="bg-[#0A0A0A] dot-grid py-20 text-center">
         <div className="max-w-3xl mx-auto px-4">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4"><span className="gradient-text">Licensed, Certified</span> & Insured</h1>
-          <p className="text-xl text-gray-300">The credentials that back up every Houston TechSys installation.</p>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4"><span className="gradient-text">Insured & Professional</span></h1>
+          <p className="text-xl text-gray-300">The credentials and coverage that back up every Houston TechSys installation.</p>
         </div>
       </section>
       <section className="py-20 bg-[#050505]">

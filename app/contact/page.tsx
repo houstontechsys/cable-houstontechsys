@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Contact Houston TechSys Cabling | Houston, TX',
-  description: 'Contact Houston TechSys for commercial cabling services in Houston TX. Call, email, or fill out our contact form. Licensed low voltage contractor.',
+  description: 'Contact Houston TechSys for commercial cabling services in Houston TX. Call, email, or fill out our contact form. Insured cabling contractor.',
   alternates: { canonical: 'https://cable.houstontechsys.net/contact/' },
 }
 

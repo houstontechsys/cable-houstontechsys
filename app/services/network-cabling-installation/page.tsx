@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Network Cabling Installation Houston TX | Houston TechSys',
-  description: 'Professional network cabling installation in Houston TX for offices, data centers, and commercial buildings. Licensed low voltage contractor. Free quote.',
+  description: 'Professional network cabling installation in Houston TX for offices, data centers, and commercial buildings. Insured cabling contractor. Free quote.',
   alternates: { canonical: 'https://cable.houstontechsys.net/services/network-cabling-installation/' },
 }
 export default function NetworkCablingPage() {

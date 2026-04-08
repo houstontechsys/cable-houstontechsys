@@ -9,7 +9,7 @@ const posts = [
   { title: 'How Much Does Structured Cabling Cost in Houston?', slug: 'structured-cabling-cost-houston', excerpt: 'A breakdown of what structured cabling actually costs in the Houston commercial market — per drop, per project, and what factors affect your quote.', date: 'April 2026' },
   { title: 'Office Relocation Cabling Checklist: 10 Things to Do Before Your Move', slug: 'office-relocation-cabling-checklist', excerpt: 'Most office moves hit cabling delays because the contractor was booked too late. Here\'s the checklist that keeps your move on schedule.', date: 'April 2026' },
   { title: 'Cat6 vs Fiber Optic: Which is Right for Your Houston Office?', slug: 'cat6-vs-fiber-optic-houston-office', excerpt: 'When do you need fiber and when is Cat6 enough? A practical guide for building owners and IT managers in the Houston commercial market.', date: 'March 2026' },
-  { title: 'Why You Need a Licensed Low Voltage Contractor in Texas', slug: 'licensed-low-voltage-contractor-texas', excerpt: 'Texas requires a license for low voltage work. Here\'s what happens when you hire unlicensed — and what to look for when vetting contractors.', date: 'March 2026' },
+  { title: 'Why You Need an Insured Cabling Contractor in Texas', slug: 'licensed-low-voltage-contractor-texas', excerpt: 'Texas requires a license for low voltage work. Here\'s what happens when you hire unlicensed — and what to look for when vetting contractors.', date: 'March 2026' },
 ]
 export default function BlogPage() {
   return (

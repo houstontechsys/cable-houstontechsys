@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'AV Network Cabling Houston TX | Conference Room & Digital Signage | Houston TechSys',
-  description: 'Professional AV network cabling in Houston TX. Conference rooms, digital signage, huddle spaces, and integrated AV infrastructure. Licensed low voltage contractor.',
+  description: 'Professional AV network cabling in Houston TX. Conference rooms, digital signage, huddle spaces, and integrated AV infrastructure. Insured cabling contractor.',
   alternates: { canonical: 'https://cable.houstontechsys.net/services/av-network-cabling/' },
 }
 export default function AVCablingPage() {
