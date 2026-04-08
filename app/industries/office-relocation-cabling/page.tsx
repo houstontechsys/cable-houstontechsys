@@ -30,7 +30,7 @@ const checklist = [
   { step: '5', item: 'Confirm ISP circuit delivery timeline', note: 'ISPs often take 4–8 weeks — order your circuit early.' },
   { step: '6', item: 'Plan for AV and conference room infrastructure', note: 'HDMI, display ports, and control cabling need separate runs.' },
   { step: '7', item: 'Schedule surveillance and access control cabling', note: 'IP cameras and door controllers require low voltage runs.' },
-  { step: '8', item: 'Request testing and certification on all cable runs', note: 'Demand Fluke-certified results — not just a visual inspection.' },
+  { step: '8', item: 'Request testing and verification on all cable runs', note: 'Demand Fluke-verified results — not just a visual inspection.' },
   { step: '9', item: 'Obtain as-built documentation before move-in', note: 'Port mapping and panel schedules save hours during setup.' },
   { step: '10', item: 'Confirm WiFi access point locations and cabling', note: 'Dead zones on day one will destroy productivity. Plan AP placement now.' },
 ]
@@ -46,7 +46,7 @@ const painPoints = [
   },
   {
     pain: 'Poor cabling = network problems on day one',
-    solution: 'Every run is Fluke-tested. You get certified results, not promises.',
+    solution: 'Every run is Fluke-tested and verified. You get documented results, not promises.',
   },
   {
     pain: 'No documentation after the job',
@@ -150,7 +150,7 @@ export default function OfficeRelocationPage() {
                 </div>
                 <div className="bg-[#141414] border border-[#222222] rounded-lg px-4 py-3 text-sm text-center">
                   <p className="text-[#DC2626] font-bold text-xl">100%</p>
-                  <p className="text-gray-400">Runs tested & certified</p>
+                  <p className="text-gray-400">Runs tested & verified</p>
                 </div>
               </div>
             </div>

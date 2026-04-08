@@ -20,6 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: '/industries/office-relocation-cabling/', priority: 0.9, changeFrequency: 'monthly' as const },
     { url: '/industries/general-contractors/', priority: 0.85, changeFrequency: 'monthly' as const },
     { url: '/industries/healthcare-education/', priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: '/industries/hospitality-restaurants/', priority: 0.85, changeFrequency: 'monthly' as const },
+    { url: '/industries/co-working-spaces/', priority: 0.85, changeFrequency: 'monthly' as const },
     { url: '/projects/', priority: 0.8, changeFrequency: 'monthly' as const },
     { url: '/about/', priority: 0.7, changeFrequency: 'monthly' as const },
     { url: '/certifications/', priority: 0.75, changeFrequency: 'yearly' as const },

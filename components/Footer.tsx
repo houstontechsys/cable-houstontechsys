@@ -58,6 +58,8 @@ export default function Footer() {
                 ['Commercial Buildings', '/industries/commercial-buildings/'],
                 ['Office Relocations', '/industries/office-relocation-cabling/'],
                 ['General Contractors', '/industries/general-contractors/'],
+                ['Hospitality & Restaurants', '/industries/hospitality-restaurants/'],
+                ['Co-Working Spaces', '/industries/co-working-spaces/'],
                 ['Healthcare & Education', '/industries/healthcare-education/'],
               ].map(([label, href]) => (
                 <li key={href}>

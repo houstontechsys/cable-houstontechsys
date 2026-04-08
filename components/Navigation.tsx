@@ -16,6 +16,8 @@ const industries = [
   { label: 'Commercial Buildings', href: '/industries/commercial-buildings/' },
   { label: 'Office Relocations', href: '/industries/office-relocation-cabling/' },
   { label: 'General Contractors', href: '/industries/general-contractors/' },
+  { label: 'Hospitality & Restaurants', href: '/industries/hospitality-restaurants/' },
+  { label: 'Co-Working Spaces', href: '/industries/co-working-spaces/' },
   { label: 'Healthcare & Education', href: '/industries/healthcare-education/' },
 ]
 

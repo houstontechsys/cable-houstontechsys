@@ -121,6 +121,13 @@ const industries = [
   },
 ]
 
+const stepImages = [
+  "https://images.pexels.com/photos/6566810/pexels-photo-6566810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600",
+  "https://images.pexels.com/photos/19166565/pexels-photo-19166565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600",
+  "https://images.pexels.com/photos/442151/pexels-photo-442151.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600",
+  "https://images.pexels.com/photos/7364948/pexels-photo-7364948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600",
+]
+
 const steps = [
   { step: '01', title: 'Free Site Survey', desc: 'We visit your site, assess your needs, and identify the best cabling solution for your space and budget.' },
   { step: '02', title: 'Custom Design', desc: 'Our team designs a complete cabling plan — pathway routing, panel layout, port counts, and documentation.' },
@@ -293,14 +300,19 @@ export default function HomePage() {
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">How It Works</h2>
             <p className="text-gray-400 text-lg max-w-xl mx-auto">Simple, proven process. From first call to final handoff.</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {steps.map((s) => (
-              <div key={s.step} className="relative">
-                <div className="w-12 h-12 bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-xl flex items-center justify-center text-[#DC2626] font-bold text-lg mb-4">
-                  {s.step}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {steps.map((s, i) => (
+              <div key={s.step} className="bg-[#141414] border border-[#222222] rounded-xl overflow-hidden">
+                <div className="h-40 overflow-hidden relative">
+                  <img src={stepImages[i]} alt={s.title} className="w-full h-full object-cover opacity-80" />
+                  <div className="absolute top-3 left-3 w-9 h-9 bg-[#DC2626] rounded-lg flex items-center justify-center text-white font-bold text-sm">
+                    {s.step}
+                  </div>
                 </div>
-                <h3 className="text-white font-semibold text-lg mb-2">{s.title}</h3>
-                <p className="text-gray-400 text-sm leading-relaxed">{s.desc}</p>
+                <div className="p-5">
+                  <h3 className="text-white font-semibold text-base mb-2">{s.title}</h3>
+                  <p className="text-gray-400 text-sm leading-relaxed">{s.desc}</p>
+                </div>
               </div>
             ))}
           </div>
