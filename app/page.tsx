@@ -162,18 +162,18 @@ export default function HomePage() {
       />
 
       {/* ── HERO ── */}
-      <section className="relative min-h-[90vh] flex items-center bg-[#0A0A0A] overflow-hidden">
+      <section className="relative bg-[#0A0A0A] min-h-[600px] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://images.pexels.com/photos/4716292/pexels-photo-4716292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920" alt="Commercial network cabling installation" className="w-full h-full object-cover opacity-30" />
+          <img src="https://images.pexels.com/photos/4716292/pexels-photo-4716292.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Commercial network cabling installation" className="w-full h-full object-cover opacity-60" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/75 to-[#0A0A0A]/30" />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0A0A0A]/95 via-[#0A0A0A]/80 to-[#222222]/60 pointer-events-none" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="max-w-3xl">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
+          <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-full px-4 py-1.5 text-sm text-[#DC2626] font-medium mb-6">
               <span className="w-2 h-2 bg-[#DC2626] rounded-full animate-pulse" />
               Fully Insured in Texas
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
+            <h1 className="text-5xl sm:text-6xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
               Houston&apos;s Most Trusted<br />
               <span className="gradient-text">Commercial Cabling</span><br />
               Contractor

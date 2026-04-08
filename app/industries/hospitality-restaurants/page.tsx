@@ -68,21 +68,21 @@ export default function HospitalityRestaurantsPage() {
       </div>
 
       {/* Hero */}
-      <section className="relative bg-[#0A0A0A] py-20 overflow-hidden">
+      <section className="relative bg-[#0A0A0A] min-h-[560px] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/32568165/pexels-photo-32568165.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920"
+            src="https://images.pexels.com/photos/32568165/pexels-photo-32568165.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
             alt="Restaurant dining room"
-            className="w-full h-full object-cover opacity-25"
+            className="w-full h-full object-cover opacity-60"
           />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/75 to-[#0A0A0A]/30" />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A]/95 via-[#0A0A0A]/80 to-transparent pointer-events-none" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
+          <div className="max-w-2xl">
             <div className="inline-block bg-[#DC2626] text-white text-xs font-bold px-3 py-1 rounded mb-5 uppercase tracking-wider">
               Hospitality & Restaurant Specialists
             </div>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-6">
+            <h1 className="text-5xl sm:text-6xl font-extrabold text-white mb-6">
               Restaurant & Hospitality<br />
               <span className="gradient-text">Cabling in Houston, TX</span>
             </h1>

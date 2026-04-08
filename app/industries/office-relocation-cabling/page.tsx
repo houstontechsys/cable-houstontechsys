@@ -73,13 +73,21 @@ export default function OfficeRelocationPage() {
       </div>
 
       {/* Hero */}
-      <section className="bg-[#0A0A0A] dot-grid py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
+      <section className="relative bg-[#0A0A0A] min-h-[560px] flex items-center overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.pexels.com/photos/7218211/pexels-photo-7218211.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+            alt="Office relocation cabling"
+            className="w-full h-full object-cover opacity-60"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/75 to-[#0A0A0A]/30" />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
+          <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 bg-[#DC2626]/10 border border-[#DC2626]/30 rounded-full px-4 py-1.5 text-sm text-[#DC2626] font-medium mb-6">
-              📦 Office Relocation Specialists
+              Office Relocation Specialists
             </div>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-6">
+            <h1 className="text-5xl sm:text-6xl font-extrabold text-white mb-6">
               Office Relocation Cabling<br />
               <span className="gradient-text">That Keeps Houston Moves on Schedule</span>
             </h1>
