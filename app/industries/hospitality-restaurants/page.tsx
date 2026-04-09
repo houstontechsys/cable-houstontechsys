@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Restaurant & Hospitality Cabling Houston TX | Houston TechSys',
-  description: 'Commercial cabling for restaurants and hospitality in Houston TX. We know where every drop goes — kitchens, dining rooms, patios, TVs, POS systems, and audio. Fully insured.',
+  description: 'Cabling for Houston restaurants and hospitality groups. Efficient kitchens, comfortable dining rooms, POS coordination, and AV that feels right. Fully insured, right the first time.',
   alternates: { canonical: 'https://cable.houstontechsys.net/industries/hospitality-restaurants/' },
   openGraph: {
     title: 'Restaurant & Hospitality Cabling Houston TX | Houston TechSys',
@@ -25,11 +25,11 @@ const breadcrumbJsonLd = {
 const expertise = [
   {
     title: 'Kitchen Infrastructure',
-    desc: 'We know exactly where data drops belong in commercial kitchens — POS terminals, KDS screens, order displays, and management systems. Clean runs, proper conduit, no interference with health code requirements.',
+    desc: 'We plan every data drop with you and your POS vendor — KDS screens, expo station, terminals, order displays, and management systems. Clean runs, proper conduit, health code compliant.',
   },
   {
     title: 'Dining Room & Patio AV',
-    desc: 'TV placement, speaker zones, and AV cabling for dining rooms and outdoor patios. We design audio coverage that enhances the guest experience — music in the right spaces, silence where it belongs.',
+    desc: 'TV placement, speaker zones, and AV cabling designed so the dining room feels comfortable and inviting — not loud, not clinical. Music in the right places at the right levels, for the right experience.',
   },
   {
     title: 'Point of Sale Coordination',
@@ -71,8 +71,8 @@ export default function HospitalityRestaurantsPage() {
       <section className="relative bg-[#0A0A0A] min-h-[560px] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.pexels.com/photos/32568165/pexels-photo-32568165.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
-            alt="Restaurant dining room"
+            src="https://images.pexels.com/photos/36724030/pexels-photo-36724030.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+            alt="Restaurant counter with POS terminal and display"
             className="w-full h-full object-cover opacity-60"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/75 to-[#0A0A0A]/30" />
@@ -87,7 +87,7 @@ export default function HospitalityRestaurantsPage() {
               <span className="gradient-text">Cabling in Houston, TX</span>
             </h1>
             <p className="text-xl text-gray-300 leading-relaxed mb-8">
-              We understand restaurants. We know where every data drop goes in the kitchen, where speakers belong in the dining room, how to route TV cabling for the best coverage, and how to coordinate with your POS vendor so everything works on opening day.
+              We have worked with restaurant groups across Houston — different concepts, different ownership structures, but the same goal: a kitchen that runs efficiently and a dining room where guests feel comfortable. We know how to build the infrastructure that makes both happen.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/get-a-quote/" className="bg-[#DC2626] hover:bg-red-700 text-white font-bold px-7 py-3.5 rounded-lg transition-all">
@@ -106,22 +106,22 @@ export default function HospitalityRestaurantsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-6">We Understand Restaurants</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">One Trade. Multiple Roles. Full Coverage.</h2>
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  Restaurants are one of the most complex cabling environments a contractor can work in. You have kitchens with health code requirements, dining rooms with specific AV needs, outdoor patios with weather considerations, and a point of sale system that has to work flawlessly from the moment the doors open.
+                  Houston TechSys is a licensed low-voltage cabling and AV integration contractor. In a restaurant buildout, that means we can fill a lot of roles — structured cabling, network infrastructure, AV system design, speaker and display installation, POS cabling coordination. We can design it, document it, and build it, or step in wherever your project needs us.
                 </p>
                 <p>
-                  Houston TechSys has done enough restaurant buildouts and renovations to understand the nuances that general contractors miss. We know where the data drops go in the kitchen — near the KDS, at the expeditor station, at the manager terminal. We know that audio belongs in the dining room and patio, not the kitchen. We know that TV placement affects the guest experience and has to be planned with the room layout in mind.
+                  We have worked with restaurant groups across Houston — different concepts, different ownership structures, but the same core goal: deliver a great experience to the guest. That means an efficient kitchen where orders move fast, and a dining room where guests feel comfortable and at ease. The energy in the front of house should feel alive and welcoming. The music balanced. The screens positioned right. None of that happens without the right infrastructure behind it.
                 </p>
                 <p>
-                  We also know that restaurants run on tight timelines. We work with your GC to ensure cabling is complete before drywall goes up and before your equipment vendors arrive. We coordinate directly with your POS team so every terminal, receipt printer, and payment device has exactly the infrastructure it needs — no delays, no surprises on opening day.
+                  We work with you and your POS vendor before we pull a single cable. We know the typical layout — KDS at the expo station, terminals at the line, manager station near the door — but we ask first, because your operation is yours. We are here to make your buildout efficient, not to dictate it.
                 </p>
               </div>
             </div>
             <div className="overflow-hidden rounded-xl">
               <img
-                src="https://images.pexels.com/photos/33986701/pexels-photo-33986701.png?auto=compress&cs=tinysrgb&dpr=2&h=800&w=1200"
+                src="https://images.pexels.com/photos/12935084/pexels-photo-12935084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=800&w=1200"
                 alt="Commercial kitchen technology installation"
                 className="w-full h-72 object-cover"
               />
@@ -135,7 +135,7 @@ export default function HospitalityRestaurantsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-white mb-4">What We Handle</h2>
-            <p className="text-gray-400 text-lg max-w-2xl mx-auto">From the kitchen to the patio — every cable, every connection, every system.</p>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">Efficient kitchen. Comfortable dining room. Everything in between, done right the first time.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {expertise.map((item) => (
@@ -174,7 +174,7 @@ export default function HospitalityRestaurantsPage() {
       <section className="py-20 bg-[#DC2626]">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-extrabold text-white mb-4">Building or Renovating a Restaurant in Houston?</h2>
-          <p className="text-red-100 text-lg mb-8">Get your cabling done right the first time. We coordinate with your GC and POS team so opening day goes smoothly.</p>
+          <p className="text-red-100 text-lg mb-8">We have worked with restaurant groups of all sizes — from single locations to multi-concept operators. Let&apos;s talk through your buildout before the GC closes the ceiling.</p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link href="/get-a-quote/" className="bg-white text-[#DC2626] hover:bg-red-50 font-bold px-8 py-4 rounded-lg text-lg transition-all">
               Get a Free Quote

@@ -34,6 +34,22 @@ export default function WiFiPage() {
           <p>We work with all major AP brands (Cisco/Meraki, Ubiquiti UniFi, Aruba, Ruckus) and coordinate with your IT team or network integrator on placement. We pull the cable, mount the AP bracket, and ensure every run is certified and labeled before the APs are installed.</p>
         </div>
       </section>
+      <section className="py-20 bg-[#0A0A0A]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-extrabold text-white mb-4">What Full Coverage <span className="gradient-text">Looks Like</span></h2>
+            <p className="text-gray-400 max-w-2xl mx-auto">A proper wireless survey maps signal strength across every zone — ensuring no dead spots before a single AP goes in. This is how we plan every deployment.</p>
+          </div>
+          <div className="rounded-xl overflow-hidden border border-[#222222]">
+            <img
+              src="/images/wifi-heatmap.png"
+              alt="WiFi heat map showing full office wireless coverage from multiple access points"
+              className="w-full h-auto"
+            />
+          </div>
+          <p className="text-center text-gray-500 text-sm mt-4">Sample heat map — generic office layout. Green = strong signal, red = weak signal at perimeter.</p>
+        </div>
+      </section>
       <section className="py-12 bg-[#DC2626] text-center">
         <h2 className="text-2xl font-bold text-white mb-4">Planning a wireless deployment?</h2>
         <Link href="/get-a-quote/" className="inline-block bg-white text-[#DC2626] font-bold px-8 py-4 rounded-lg text-lg">Get a Free Quote</Link>

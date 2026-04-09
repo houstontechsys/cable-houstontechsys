@@ -26,7 +26,7 @@ export default function Footer() {
               <p className="text-sm text-gray-400"><span className="text-white">Phone:</span> <a href="tel:2812312944" className="hover:text-[#DC2626]">(281) 231-2944</a></p>
               <p className="text-sm text-gray-400"><span className="text-white">Email:</span> <a href="mailto:info@houstontechsys.net" className="hover:text-[#DC2626]">info@houstontechsys.net</a></p>
               <p className="text-sm text-gray-400"><span className="text-white">Location:</span> Houston, TX</p>
-              <p className="text-sm text-gray-400"><span className="text-white">License:</span> TX Low Voltage #[LICENSE]</p>
+
             </div>
           </div>
 
